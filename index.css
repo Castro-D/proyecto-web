@@ -6,23 +6,56 @@
 
 .contenedor {
   display: flex;
-  height: 100vh;
 }
 
 .navbar {
   width: 100%;
-  height: 10%;
+  background-color: #0c2340;
+  padding: 10px;
   display: flex;
-  background-color: #acadaf;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.navbar p {
-  line-height: 70px;
+.navbar .logo a {
+  line-height: 50px;
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
 }
 
-.logo {
-  background: url('./img/logo.png');
-  background-size: cover;
-  background-position: center;
+.logo img {
+  vertical-align: top;
   width: 50px;
+}
+
+.elementos-nav {
+  width: 30%;
+  display: flex;
+  align-items: center;
+}
+
+.navbar .elementos-nav a {
+  padding: 10px;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  flex-grow: 1;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+}
+
+.navbar button {
+  background-color: #0072CE;
+  border: none;
+  padding: 10px;
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  color: #fff;
+  width: 130px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  cursor: pointer;
 }
