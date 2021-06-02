@@ -23,7 +23,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  position: fixed;
+  position: fixed; /* me arruina la sombra, hace que se mueva para arriab*/
+  z-index: 1;
 }
 
 .navbar .logo a {
@@ -86,6 +87,7 @@ body {
 .portada p {
   margin-left: 100px;
   letter-spacing: 1px;
+  z-index: 1;
 }
 
 .portada-titulo {
@@ -94,8 +96,8 @@ body {
 
 .sombra {
   width: 100%;
-  height: 652px;
+  height: 100vh;
   background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
-  top: 10%;
 }
+
