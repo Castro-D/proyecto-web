@@ -19,7 +19,7 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  position: fixed; /* me arruina la sombra, hace que se mueva para arriab*/
+  position: fixed;
   z-index: 2;
 }
 
