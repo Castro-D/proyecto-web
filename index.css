@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  height: 100vh;
-}
-
 .contenedor {
   display: flex;
   flex-direction: row;
@@ -24,7 +20,7 @@ body {
   align-items: center;
   justify-content: space-around;
   position: fixed; /* me arruina la sombra, hace que se mueva para arriab*/
-  z-index: 1;
+  z-index: 2;
 }
 
 .navbar .logo a {
@@ -101,3 +97,42 @@ body {
   position: absolute;
 }
 
+.seccion-about {
+  width: 100%;
+  background-color: rgb(1, 4, 10);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.seccion-about p {
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  width: 30em;
+  padding: 20px;
+  letter-spacing: 1px;
+  text-align: start;
+  font-size: 15px;
+}
+
+.seccion-about h2 {
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  padding: 20px;
+  letter-spacing: 1px;
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.imagen-about {
+  background-image: url('./img/about-img.jpg');
+  width: 40%;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 20px;
+  min-width: 350px;
+}
