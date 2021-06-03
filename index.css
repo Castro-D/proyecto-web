@@ -154,5 +154,20 @@
 
 .container-carusel {
   width: 40%;
-  margin: 20px;
+  margin-top: 20px;
+  margin-bottom: 200px;
+}
+
+.roster-container {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card {
+  width: 250px;
+  height: 400px;
+  background-color: #fff;
 }
