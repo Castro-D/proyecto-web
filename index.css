@@ -167,6 +167,7 @@
   flex-direction: column;
   align-items: center;
   border: none;
+  margin: 20px;
 }
 
 .card img {
@@ -187,8 +188,31 @@
   margin: 0;
   padding: 5px;
   color: #fff;
-  color: #FFFFFF;
   text-shadow: 0 0 10px #FFFFFF;
 }
 
-/*44eeaa*/
+.seccion-contacto {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(31, 43, 65);
+  height: 60vh;
+  color: #fff;
+}
+
+input {
+  width: 35%;
+  height: 8%;
+}
+
+.seccion-contacto button {
+  padding: 10px;
+  background-color: #0072CE;
+  border: none;
+  color: #fff;
+  width: 15%;
+}
+
+
