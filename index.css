@@ -198,7 +198,7 @@
   align-items: center;
   justify-content: space-around;
   background-color: rgb(31, 43, 65);
-  height: 60vh;
+  height: 80vh;
   color: #fff;
 }
 
@@ -215,4 +215,34 @@ input {
   width: 15%;
 }
 
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 24vh;
+  background-color: rgb(14, 13, 13);
+}
 
+.footer-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-logo img {
+  width: 10%;
+  vertical-align: top;
+}
+
+.footer-logo a {
+  line-height: 96px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+}
+
+footer p {
+  color: #fff;
+  font-size: 13px;
+}
