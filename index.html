@@ -7,6 +7,7 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel='stylesheet' type='text/css' media='screen' href='./index.css'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="http://fonts.googleapis.com/css?family=Lato:400,900italic,700italic&display=swap" rel="stylesheet">
   </head>
@@ -17,6 +18,11 @@
           <img src="./img/logo.png" alt="logo-de-equipo">
           <a href='#home'>TEAM UNDERDOGS</a>
         </div>
+        <button class='hamburger' id='hamburger'>
+          <span class="menuIcon material-icons">
+            menu
+          </span>           
+        </button>
         <div class='elementos-nav'>
           <a href="#about">About</a>
           <a href="#roster">Roster</a>
@@ -27,6 +33,19 @@
           <button>Login</button>
       </div>
       </div>
+      <ul class="hamburger-menu">
+        <li><a class="menuLink" href="#home">Home</a></li>
+        <li><a class="menuLink" href="#about">About</a></li>
+        <li><a class="menuLink" href="#roster">Roster</a></li>
+        <li><a class="menuLink" href="#contact">Contact</a></li>
+        <li><a class="menuLink" href="#">Register</a></li>
+        <li><a class="menuLink" href="#">Login</a></li>
+        <button class='hamburger' id='ham'>
+          <span class="menuIcon material-icons">
+            menu
+          </span>           
+        </button>
+      </ul>
       <div class='portada' id='home'>
         <p>The future talent is here.</p>
         <p class='portada-titulo'>TEAM UNDERDOGS</p>
@@ -62,7 +81,7 @@
             </button>
           </div>
         </div>
-        <h2>Meet our champions</h2>
+        <h2>our champions</h2>
         <div class='roster-container' id='roster'>
           <div class='card'>
             <img src="./img/excelsior.jpeg" alt="">
@@ -107,5 +126,6 @@
       </footer>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
   </body>
 </html>
