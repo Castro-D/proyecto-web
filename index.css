@@ -87,7 +87,7 @@
   background-image: url('./img/portada.png');
   width: 100%;
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
   color: #fff;
 }
@@ -367,17 +367,8 @@ footer p {
     padding: 10px;
   }
 
-  .navbar .logo a {
-    line-height: 25px;
-    font-size: 15px;
-  }
-  
-  .logo img {
-    width: 25px;
-  }
-
   .hamburger {
-    top: 0.6rem;
+    top: 1.3rem;
   }
 
   .footer-logo a {
@@ -391,7 +382,7 @@ footer p {
 
 @media screen and (max-width: 425px) {
   .portada-titulo {
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .portada p {
@@ -435,5 +426,11 @@ footer p {
     font-size: 9px;
   }
 
-/*arreglar portada que se corta*/
+  .menuLink {
+    font-size: 1.5rem;
+  }
+
+  .parrafo-titulo {
+    font-size: 10px;
+  }
 }
