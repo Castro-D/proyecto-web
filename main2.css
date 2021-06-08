@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(114, 133, 241);
+}
+
+.card {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  align-items: flex-start;
+  min-width: 300px;
+}
+
+h1 {
+  font-style: italic;
+  padding: 20px 25px;
+}
+
+h2 {
+  font-size: 15px;
+  padding: 0 0 40px 25px;
+}
+
+input {
+  margin: 10px 25px;
+  background-color: rgb(230, 227, 227);
+  border: none;
+  padding: 10px;
+  color: rgb(24, 24, 24);
+  font-size: 15px;
+  width: 85%;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  margin: 30px 25px;
+  border: none;
+  background-color: rgb(34, 133, 255);
+  padding: 10px;
+  cursor: pointer;
+  color: #fff;
+  width: 150px;
+  font-weight: bold;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: 20%;
+}
+.logo img {
+  width: 20%;
+  margin: 0 20px 20px 0;
+}
